@@ -9,7 +9,7 @@
         .input_container{box-sizing:border-box;border:2px solid black; border-radius: 0 0 8px 8px;height:170px;width:200px;}
         .submit{height: 30px;width:100px;}
         .btn_container{text-align:center;}
-        .receipt_container{border:2px solid black;border-radius:8px;width:600px;height:300px;margin:25px auto;}
+        .receipt_container{border:2px solid black;border-radius:8px;height:400px;width:600px;margin:25px auto;}
         .column{float:left;width:300px;}
         </style>
     </Head>
@@ -30,7 +30,7 @@
                 <div class="input_container">
                     <input type="checkbox" class="meat" value="Pepperoni">Pepperoni</input><br>
                     <input type="checkbox" class="meat" value="Sausage">Sausage</input><br>
-                    <input type="checkbox" class="meat" vlaue="Canadian Bacon">Canadian Bacon</input><br>
+                    <input type="checkbox" class="meat" value="Canadian Bacon">Canadian Bacon</input><br>
                     <input type="checkbox" class="meat" value="Ground Beef">Ground Beef</input><br>
                     <input type="checkbox" class="meat" value="Anchovy">Anchovy</input><br>
                     <input type="checkbox" class="meat" value="Chicken">Chicken</input>
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="btn_container">
-            <button class="submit" onclick="getRecipt()" id="add_to_cart">Add To Cart</button>
+            <button class="submit" onclick="getReceipt()" id="add_to_cart">Add To Cart</button>
         </div>
         <div class="receipt_container">
             <p class="column" id="item_column"></p>
